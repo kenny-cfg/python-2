@@ -1,10 +1,7 @@
-# name = input('What is your name? ')
+from poo.bum import name
+from wee.doo_dah import doo_dah_name
 
-name = 'Lisa'
-second_name = 'Natalia'
-third_name = 'Inna'
-
-print('Hello {}, {} and {}'.format(name, second_name, third_name))
-print(f'Hello {name}, {second_name} and {third_name}')
+print(f'Hello {name}')
+print(f'Hello {doo_dah_name}')
 # print('Hello, {}'.format(name))
 # print(f'Hello, {name}')
